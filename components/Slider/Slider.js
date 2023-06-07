@@ -6,7 +6,7 @@ const SlickSlider = ({ slideClass }) => {
 		const { onClick } = props;
 		return (
 			<button className="slick-prev slick-arrow" onClick={onClick}>
-				<img src="/images/left-arrow.png" alt="Previous" />
+				<img link="/images/left-arrow.png" alt="Previous" />
 			</button>
 		);
 	};
@@ -15,7 +15,7 @@ const SlickSlider = ({ slideClass }) => {
 		const { onClick } = props;
 		return (
 			<button className="slick-next slick-arrow" onClick={onClick}>
-				<img src="/images/right-arrow.png" alt="Next" />
+				<img link="/images/right-arrow.png" alt="Next" />
 			</button>
 		);
 	};
@@ -45,10 +45,10 @@ const SlickSlider = ({ slideClass }) => {
 	};
 	return (
 		<Slider className="single-item slider" {...settings}>
-			<Card1 slideClass={slideClass} label="Mobile" img="mobile.svg" src="mobile/index.html" />
-			<Card1 slideClass={slideClass} label="Microsoft" img="portfolio2.png" src="mobile/index.html" />
-			<Card1 slideClass={slideClass} label="PHP" img="portfolio3.png" src="mobile/index.html" />
-			<Card1 slideClass={slideClass} label="UI/UX" img="portfolio4.png" src="mobile/index.html" />
+			<Card1 slideClass={slideClass} label="Mobile" img="mobile.svg" link="mobile" />
+			<Card1 slideClass={slideClass} label="Microsoft" img="portfolio2.png" link="mobile/index.html" />
+			<Card1 slideClass={slideClass} label="PHP" img="portfolio3.png" link="mobile/index.html" />
+			<Card1 slideClass={slideClass} label="UI/UX" img="portfolio4.png" link="mobile/index.html" />
 		</Slider>
 	);
 };

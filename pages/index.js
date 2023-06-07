@@ -246,10 +246,10 @@ export default function Home() {
 										<h3 className="left-line">Our Portfolio</h3>
 										<div className="portfolio-slider">
 											<div className="desktop-box slider">
-												<Card1 slideClass="slide" label="Mobile" img="mobile.svg" src="mobile/index.html" />
-												<Card1 slideClass="slide" label="Microsoft" img="portfolio2.png" src="mobile/index.html" />
-												<Card1 slideClass="slide" label="PHP" img="portfolio3.png" src="mobile/index.html" />
-												<Card1 slideClass="slide" label="UI/UX" img="portfolio4.png" src="mobile/index.html" />
+												<Card1 slideClass="slide" label="Mobile" img="mobile.svg" link="mobile" />
+												<Card1 slideClass="slide" label="Microsoft" img="portfolio2.png" link="mobile/index.html" />
+												<Card1 slideClass="slide" label="PHP" img="portfolio3.png" link="mobile/index.html" />
+												<Card1 slideClass="slide" label="UI/UX" img="portfolio4.png" link="mobile/index.html" />
 											</div>
 										</div>
 									</div>

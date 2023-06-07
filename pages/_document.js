@@ -12,6 +12,13 @@ export default function Document() {
 				/>
 				<link href="/css/slick.css" rel="stylesheet" />
 				<link href="/css/home.css" rel="stylesheet" />
+				<link type="text/css" rel="stylesheet" href="/css/bootstrap.min.css" />
+				<link type="text/css" rel="stylesheet" href="/css/jquery.fullPage-number.css" />
+				<link type="text/css" rel="stylesheet" href="/css/jquery.fancybox.min.css" />
+				<link type="text/css" rel="stylesheet" href="/css/main.css" />
+				<link type="text/css" rel="stylesheet" href="/css/main-new.css" />
+				<link type="text/css" rel="stylesheet" href="/css/responsive.css" />
+				<link type="text/css" rel="stylesheet" href="/css/animateslides.css" />
 			</Head>
 			<body>
 				<Main />
